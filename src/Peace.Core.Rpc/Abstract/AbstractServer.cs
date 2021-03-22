@@ -244,7 +244,10 @@ namespace Peace.Core.Rpc
             finally
             {
                 //释放负载
-                _serverStub.Workloads.Release(request.MessageId);
+                if (request != null)
+                {
+                    _serverStub.Workloads.Release(request.MessageId);
+                }
             }
             return SerializeMessage(response);
         }
