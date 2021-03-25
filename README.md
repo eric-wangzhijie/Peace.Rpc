@@ -1,5 +1,5 @@
 # Peace.Rpc
-Peace.Rpc is a RPC framework for business base on **.Net Core**.
+Peace.Rpc is a RPC framework for business base on **.Net Core**. Base on Grpc & Messagepack.
 
 ## How to use:
 Check the sample.
